@@ -8,17 +8,18 @@ const myChart = new Chart(ctx, {
     options: {
         scales: {
             x: { 
-              title: {
-                display: true,
-                text: 'Date'
-              },
-              beginAtZero: false
+                type: 'time',
+                title: {
+                    display: true,
+                    text: 'Date'
+                },
+                beginAtZero: false
             },
             y: {
-              title: {
-                display: true,
-                text: 'PSI'
-              },
+                title: {
+                    display: true,
+                    text: 'PSI'
+                },
             }
         }
     }
