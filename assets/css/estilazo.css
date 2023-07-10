@@ -1,0 +1,36 @@
+.form {
+    display: flex;
+    margin: 3em;
+    padding: 3em;
+}
+
+.measurements {
+    overflow-x: auto;
+    border: 1px solid rgb(187, 14, 14);
+    border-collapse: collapse;
+}
+
+.measurements > * th, .measurements > * td {
+    padding: 0.5em;
+    text-align: left;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.measurements > * tr:nth-child(even) {
+    background-color: rgba(181, 10, 10, 0.833);
+}
+
+.measurements > * tr:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.833);
+    color: white;
+}
+
+.responsivechart {
+    margin-block: auto;
+    margin-top: 1em;
+}
+
+.chart {
+    width: 100em;
+}
